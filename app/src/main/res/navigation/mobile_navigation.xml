@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/aaj_tak"
+        android:name="com.layout.newsapplication.ui.home.HomeFragment"
+        android:label="Aaj Tak"
+        tools:layout="@layout/fragment_aaj_tak" />
+
+    <fragment
+        android:id="@+id/news24"
+        android:name="com.layout.newsapplication.ui.gallery.GalleryFragment"
+        android:label="News24"
+        tools:layout="@layout/fragment_news_24" />
+
+    <fragment
+        android:id="@+id/abp_news"
+        android:name="com.layout.newsapplication.ui.slideshow.SlideshowFragment"
+        android:label="ABP News"
+        tools:layout="@layout/fragment_abp_news" />
+
+</navigation>
